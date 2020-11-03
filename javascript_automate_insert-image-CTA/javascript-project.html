@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<title>Eric's Final Project</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/github.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/primer.css">
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/project-3.js"></script>
+<script src="js/highlight.pack.min.js"></script>
+<script src="js/tooltips.js"></script>
+<script src="js/snippets.js"></script>
+</head>
+
+<body>
+
+<!-- Main Content -->
+<main id="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      <div id="addNew">
+        <input type="text" id="addImage" placeholder="Add Image URL">
+        <input type="text" id="addCTA" placeholder="Add main CTA">
+        <input type="text" id="addGoButton" placeholder="Add button CTA">
+        <br>
+        <div class="btn btn-success">Add Item</div>
+      </div>
+      <pre class="snippet">
+        <button class="btn" data-clipboard-target="#theResult">
+        <img class="clippy" width="13" src="img/clippy.svg" alt="Copy to clipboard">
+        </button>
+        <code id="theResult">
+          <table class="mobile" border="0" cellpadding="0" cellspacing="0" align="center"></table>
+        </code>
+      </pre>
+
+      <!--vInclude library -->
+      <script src="dist/clipboard.min.js"></script>
+
+      <!-- Final success or error for copying to clip board-->
+      <script>
+          var btns = document.querySelectorAll('button');
+          var clipboard = new Clipboard(btns);
+          clipboard.on('success', function(e) {
+              console.log(e);
+          });
+          clipboard.on('error', function(e) {
+              console.log(e);
+          });
+      </script>
+
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
