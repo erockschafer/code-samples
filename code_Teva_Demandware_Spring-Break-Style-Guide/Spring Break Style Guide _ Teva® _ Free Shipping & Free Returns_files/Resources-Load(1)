@@ -1,0 +1,13 @@
+
+
+(function(app) {
+app.user = {"zip":"","storeId":"","lat":38,"long":-97};
+app.enabledStorePickup = false;
+app.isProCustomer = false;
+app.location = {"country":"US","postal":"08054","city":"MOUNTLAUREL","state":"NJ"};
+app.authenticated = false;
+app.clientcache = {"LISTING_INFINITE_SCROLL":true,"LISTING_REFINE_SORT":true,"LISTING_SEARCHSUGGEST_LEGACY":true};
+app.protocol = "http";
+app.currencyCode = "USD";
+app.currencySymbol = "$";
+}(window.app = window.app || {}));

@@ -1,0 +1,97 @@
+
+<!-- saved from url=(0129)http://20727382p.rfihub.com/ca.html?rb=24048&ca=20727382&ra=2874779556877911&t=home&_o=24048&_t=teva_cat&&ssv_subcat=spring-break -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body marginwidth="0" marginheight="0" onload="rfiFirePixels()">
+
+<script type="text/javascript">
+
+window.rfiEventHandler = function(obj, type, handler) {
+    if (obj.addEventListener) {
+        obj.addEventListener(type, handler, false);
+    } else if (obj.attachEvent) {
+        obj.attachEvent('on' + type, handler);
+    }
+    obj['on' + type] = handler;
+};
+
+window.rfiFirePixels = function() {
+    var data = new Object();
+    var timeout = 15000, collectStats = !0, statsDone = !1;
+    var pixels = [{"b":13488,"s":"http://cm.g.doubleclick.net/pixel?google_nid=rfi&google_cm=&google_sc=&google_hm=OTc1OTQ0MTE4ODM1NDI5MjEz&forward="}, {"b":17243,"s":"http://ib.adnxs.com/pxj?bidder=18&seg=378601&action=setuids('975944118835429213','1CAESEOk9WppswS_0A6lIR0yLyyg');&redir="}, {"b":51433,"s":"http://pixel.rubiconproject.com/tap.php?v=13490&nid=2596&put=975944118835429213&expires=30&next="}, {"b":54855,"s":"http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI3MzkmdGw9MTU3NjgwMA==&piggybackCookie=975944118835429213&r="}, {"b":54831,"s":"http://t4.liverail.com/?metric=csync&p=3010&s=975944118835429213&redirect="}, {"b":52220,"s":"http://dsum.casalemedia.com/rum?cm_dsp_id=57&external_user_id=975944118835429213&forward="}, {"b":40977,"s":"http://ads.yahoo.com/cms/v1?esig=1~84c296ca4cae9f73fbcc48363a3cd4cd34be98f5&nwid=10000648372&sigv=1"}, {"b":55065,"s":"http://soma.smaato.net/oapi/idsync?redirect=http%3A%2F%2Fp.rfihub.com%2Fcm%3Fpub%3D720%26partnerId%3DSomaCookieUserId"}, {"b":42261,"s":"http://us-u.openx.net/w/1.0/sd?id=537073062&val=975944118835429213&r="}, {"b":52643,"s":"http://pix.btrll.com/partner/114943.png"}, {"b":53707,"s":"http://sync.search.spotxchange.com/partner?adv_id=7180&uid=975944118835429213&img=1"}, {"b":56605,"s":"http://a.rfihub.com/adb.gif?ms=&rb=24048&ca=20727382&po=100&ra=5Fpj819xGWfR"}, {"b":54645,"s":"http://tapestry.tapad.com/tapestry/1?ta_partner_id=937&ta_partner_did=975944118835429213&ta_format=gif"}, {"b":56607,"s":"http://cs.gssprt.jp/yie/ld/cs?dspid=rocket&uid=975944118835429213"}, {"b":56659,"s":"http://x.bidswitch.net/sync?dsp_id=119&user_id=975944118835429213&expires=30"}];
+    var fbPixels = [
+        
+    ];
+    var additionalHtml = "";
+    var pixelId = 20727382;
+    pixels = pixels.concat(fbPixels);
+    data.id = "24048,20727382,cc0f959b24f794679da87077512d64d8";
+
+    if (additionalHtml !== "") {
+        var d = document.createElement("div");
+        d.id = "rfiAddH";
+        d.innerHTML = additionalHtml;
+        document.body.appendChild(d);
+    }
+
+    if (collectStats) {
+        data.stats = new Object();
+        for (i in pixels) {
+            data.stats[pixels[i].b] = "";
+        }
+    }
+
+    var recordTime = function(elem, type) {
+        if (collectStats) {
+            data.stats[elem.elemId] = (new Date().getTime() - elem.initTime) + "," + type;
+        }
+    };
+
+    for (i in pixels) {
+        var img = document.createElement('IMG');
+        img.onload = function() {
+            recordTime(this, 1);
+        };
+        img.onerror = function() {
+            recordTime(this, 2);
+        };
+        img.onabort = function() {
+            recordTime(this, 3);
+        };
+        img.elemId = pixels[i].b;
+        img.src = pixels[i].s;
+        var t = new Date().getTime();
+        img.initTime = t;
+        document.body.appendChild(img);
+    }
+
+
+    var sendStats = function() {
+        var msg = new Object();
+        msg.type = 2;
+        msg.id = pixelId;
+        msg.data = data;
+        window.parent.postMessage(msg, '*');
+    };
+
+    setTimeout(function() {
+        sendStats();
+        var msg = new Object();
+        msg.type = 1;
+        msg.id = pixelId;
+        window.parent.postMessage(msg, '*');
+    }, timeout);
+
+
+    var unloadEventHandler = function(event) {
+        if (collectStats && !statsDone) {
+            sendStats();
+            statsDone = !0;
+        }
+    };
+
+    rfiEventHandler(window, "unload", unloadEventHandler);
+    rfiEventHandler(window, "beforeunload", unloadEventHandler);
+};
+</script>
+
+
+<img src="pixel"><img src="pxj"><img src="tap.php"><img src="Pug"><img src="saved_resource(2)"><img src="rum"><img src="v1"><img src="idsync"><img src="sd"><img src="114943.png"><img src="partner"><img src="adb.gif"><img src="1"><img src="cs"><img src="sync"></body></html>
