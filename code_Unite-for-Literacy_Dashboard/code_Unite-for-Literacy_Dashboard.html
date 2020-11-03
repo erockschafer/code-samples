@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://create.uniteforliteracy.com/dashboard -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Unite for Literacy - Dashboard</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="Unite for Literacy provides free digital access to picture books, narrated in many languages. Literacy is at the core of a healthy community, so we unite with partners to enable all families to read with their young children.">
+<meta name="author" content="Unite for Literacy">
+<meta name="keywords" content="book, books, picture book, picture books, library, read, reading, free, literacy, language, languages, narration, narrations, narrated">
+<meta name="resource-type" content="document">
+<meta name="revisit-after" content="7 days">
+<meta name="rating" content="safe for kids">
+
+<meta property="og:title" content="Unite for Literacy library">
+<meta property="og:site_name" content="Unite for Literacy">
+<meta property="og:url" content="http://www.uniteforliteracy.com">
+<meta property="og:description" content="Unite for Literacy provides free digital access to picture books, narrated in many languages. Literacy is at the core of a healthy community, so we unite with partners to enable all families to read with their young children.">
+<meta property="og:image" content="http://static.uniteforliteracy.com/img/homeimage.jpg?v=5947236t3">
+<meta property="fb:app_id" content="550922321638589">
+
+<link rel="shortcut icon" href="https://cprod-cloud.uniteforliteracy.com/images/Unite_Icon_64.ico?v=5947236t3" type="image/x-icon">
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://static-cloud.uniteforliteracy.com/img/apple/unite-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://static-cloud.uniteforliteracy.com/img/apple/unite-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://static-cloud.uniteforliteracy.com/img/apple/unite-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://static-cloud.uniteforliteracy.com/img/apple/unite-144x144.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="./Unite for Literacy - Dashboard_files/bootstrap.min.css">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<!-- <link href="//cprod-cloud.uniteforliteracy.com/stylesheets/bootstrap/bootstrap.min_vvv_5947236t3.css" rel="stylesheet"> -->
+<!-- <link href="//cprod-cloud.uniteforliteracy.com/stylesheets/ufl-bootstrap_vvv_5947236t3.css" rel="stylesheet"> -->
+<!-- <link href="//cprod-cloud.uniteforliteracy.com/stylesheets/reader_vvv_5947236t3.css" rel="stylesheet"> -->
+<!-- <link href="//cprod-cloud.uniteforliteracy.com/stylesheets/bootstrap/bootstrap.min_vvv_5947236t3.css" rel="stylesheet"> -->
+<!-- <link href="//cprod-cloud.uniteforliteracy.com/stylesheets/ufl-bootstrap_vvv_5947236t3.css" rel="stylesheet"> -->
+
+<!-- font-awesome -->
+<!-- <link href="//cprod-cloud.uniteforliteracy.com/stylesheets/font-awesome-4.3.0/css/font-awesome.min_vvv_5947236t3.css" rel="stylesheet"> -->
+
+<!-- Google font -->
+<link href="./Unite for Literacy - Dashboard_files/css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+<style type="text/css">
+  /* === Overrides used by global header and sticky footer === */
+
+  html {
+    /* Bootstrap overide */
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    /* Bootstrap overide */
+    background-color: #f7f7f7!important;
+    color: #414042!important;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
+    /* Margin bottom by footer height */
+    margin-bottom: 80px!important;
+    cursor: default;
+  }
+
+  /* === End Overrides used by global header and sticky footer === */
+
+  /* === For Global Nav === */
+
+  .glyph-pad-center {
+    /* To center nav element */
+    padding: 10px 0px !important;
+  }
+
+  .uflLogo {
+    /* UFL logo */
+    background: url(/images/uflsprite.png?v=5397944) -4px -9px;
+    display: block;
+    width: 232px;
+    height: 30px;
+    padding: 0px!important;
+    margin: 0px!important;
+    background-repeat: no-repeat;
+    float: left;
+  }
+
+  .glyphicon-cog {
+    /* Bootstrap overide - vertically */
+    min-height: 30px;
+    line-height: 30px!important;
+    top: 0px!important;
+  }
+
+  .glyphicon-home {
+    /* Bootstrap overide - vertically */
+    min-height: 16px;
+    line-height: 16px;
+  }
+
+  .btn-default-disable {
+    background-color: #f7f7f7!important;
+    color: #afafaf!important;
+    cursor: not-allowed!important;
+    border: 2px solid #e6e6e6!important;
+  }
+
+  .nav>li>a:focus,
+  .nav>li>a:hover {
+    opacity: .6;
+    background-color: transparent;
+    -webkit-transition: all .15s cubic-bezier(0, 0, 0.2, 1) .125s;
+    -moz-transition: all .15s cubic-bezier(0, 0, 0.2, 1) .125s;
+    -o-transition: all .15s cubic-bezier(0, 0, 0.2, 1) .125s;
+    transition: all .15s cubic-bezier(0, 0, 0.2, 1) .125s;
+  }
+
+  /* === End Global Nav === */
+
+  .margin-top-50 {
+    /* ufl overide */
+    margin-top: 50px;
+  }
+
+  .margin-top-40 {
+    /* ufl overide */
+    margin-top: 40px;
+  }
+
+  .margin-top-30 {
+    /* ufl overide */
+    margin-top: 30px;
+  }
+
+  .margin-top-20 {
+    /* ufl overide */
+    margin-top: 20px;
+  }
+
+  .margin-top-10 {
+    /* ufl overide */
+    margin-top: 10px;
+  }
+
+  .margin-bottom-50 {
+    /* ufl overide */
+    margin-bottom: 50px;
+  }
+
+  .margin-bottom-40 {
+    /* ufl overide */
+    margin-bottom: 40px;
+  }
+
+  .margin-bottom-30 {
+    /* ufl overide */
+    margin-bottom: 30px;
+  }
+
+  .margin-bottom-20 {
+    /* ufl overide */
+    margin-bottom: 20px;
+  }
+
+  .margin-bottom-10 {
+    /* ufl overide */
+    margin-bottom: 10px;
+  }
+
+  .margin-bot-10 {
+    /* ufl overide */
+    width: 100%;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .padding-top-50 {
+    /* ufl overide */
+    padding-top: 50px;
+  }
+
+  .padding-top-40 {
+    /* ufl overide */
+    padding-top: 40px;
+  }
+
+  .padding-top-30 {
+    /* ufl overide */
+    padding-top: 30px;
+  }
+
+  .padding-top-20 {
+    /* ufl overide */
+    padding-top: 20px;
+  }
+
+  .padding-top-10 {
+    /* ufl overide */
+    padding-top: 10px;
+  }
+
+  .padding-bottom-50 {
+    /* ufl overide */
+    padding-bottom: 50px;
+  }
+
+  .padding-bottom-40 {
+    /* ufl overide */
+    padding-bottom: 40px;
+  }
+
+  .padding-bottom-30 {
+    /* ufl overide */
+    padding-bottom: 30px;
+  }
+
+  .padding-bottom-20 {
+    /* ufl overide */
+    padding-bottom: 20px;
+  }
+
+  .padding-bottom-10 {
+    /* ufl overide */
+    padding-bottom: 10px;
+  }
+
+  h4 {
+    /* ufl overide */
+    font-weight: 100;
+  }
+
+  .modal-header {
+    background-color: #ffffff;
+  }
+
+  .modal-body {
+    background-color: #f7f6f3;
+  }
+
+  select[multiple],
+  select[size] {
+    min-height: 300px;
+  }
+
+  .form-group input[type="text"]~.field-help,
+  .form-group textarea~.field-help {
+    opacity: 0;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+
+  .form-group input[type="text"]:focus~.field-help,
+  .form-group textarea:focus~.field-help {
+    opacity: 1;
+    -webkit-transition: opacity .5s cubic-bezier(0, 0, 0.2, 1) .125s;
+    -moz-transition: opacity .5s cubic-bezier(0, 0, 0.2, 1) .125s;
+    -o-transition: opacity .5s cubic-bezier(0, 0, 0.2, 1) .125s;
+    transition: opacity .5s cubic-bezier(0, 0, 0.2, 1) .125s;
+    max-height: 200px;
+  }
+
+  .field-help,
+  .invalid-error {
+    width: 100%;
+    font-weight: 300;
+    text-align: left;
+    padding: 0 0 0 5px;
+    position: relative;
+    color: #616161;
+    margin-top: -15px;
+  }
+
+  span.glyphicon.glyphicon-thumbs-up {
+    color: rgb(122, 193, 66);
+    font-size: 18px;
+    top: 4px;
+  }
+
+  span.glyphicon.glyphicon-remove-circle {
+    color: rgb(178, 79, 78);
+    font-size: 18px;
+    top: 4px;
+  }
+
+  /* === Tables ufl overide === */
+
+  .arrowUp::before {
+    content: "\2191";
+    float: right;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .arrowDown::before {
+    content: "\2193";
+    float: right;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .user_sort:hover {
+    background-color: rgba(221, 221, 221, 0.38);
+  }
+
+  .table-users {
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+  }
+
+  /*!
+                   * IE10 viewport hack for Surface/desktop Windows 8 bug
+                   * Copyright 2014-2015 Twitter, Inc.
+                   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+                   */
+
+  /*
+                   * See the Getting Started docs for more information:
+                   * http://getbootstrap.com/getting-started/#support-ie10-width
+                   */
+
+  @-ms-viewport {
+    width: device-width;
+  }
+
+  @-o-viewport {
+    width: device-width;
+  }
+
+  @viewport {
+    width: device-width;
+  }
+
+  /* === Media queries === */
+
+  @media(max-width: 991px) {
+    .table {
+      width: 960px;
+    }
+    .tooltip.right {
+      /* turn off tooltip book cover preview*/
+      display: none!important;
+    }
+  }
+
+  @media(max-width: 767px) {
+    div.table-responsive h4 {
+      padding-left: 8px;
+    }
+  }
+</style>
+
+
+  <!-- Google Analytics -->
+  <script async="" src="./Unite for Literacy - Dashboard_files/analytics.js"></script><script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </script>
+
+
+  <!-- If javascript is not enabled on this browser redirect to special page to help user enable javascript -->
+  <noscript>
+      <meta http-equiv="refresh" content="1; URL=/corp/nojs" />
+  </noscript>
+
+<script src="./Unite for Literacy - Dashboard_files/loader.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/loader(1).js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="./Unite for Literacy - Dashboard_files/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="./Unite for Literacy - Dashboard_files/util.css"><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_corechart_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_fw_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/dygraph-tickers-combined.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/webfont.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_line_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_bar_module.js"></script><script type="text/javascript" charset="UTF-8" src="./Unite for Literacy - Dashboard_files/jsapi_compiled_gauge_module.js"></script></head>
+
+<body>
+  <style type="text/css">
+    .navbar-main {
+      background-color: #ED8B00;
+      border: none;
+      margin-bottom: 0px;
+      border-radius: 0px;
+    }
+
+    .glyph-pad-center {
+      float: none;
+      margin: 0px auto;
+      margin-left: auto!important;
+      width: 232px;
+      display: block;
+      text-align: center;
+      left: 0;
+      right: 0;
+    }
+  </style>
+  <nav class="navbar navbar-main">
+    <div class="container">
+      <a href="https://create.uniteforliteracy.com/" class="navbar-brand glyph-pad-center"><span class="uflLogo"></span></a>
+    </div>
+  </nav>
+
+<style type="text/css">
+	/* === For sub nav === */
+
+	.navbar-sub {
+		margin-bottom: 0px;
+		border: 0px;
+		background-color: #ffffff;
+		border-radius: 0px;
+		min-height: 40px;
+		box-shadow: 0px 1px #cccccc;
+	}
+
+	.glyphicon-home {
+		/* Bootstrap overide - vertically align */
+		min-height: 16px;
+		line-height: 16px;
+	}
+
+	.affix {
+		/* used for sticky sub nav */
+		top: 0;
+		width: 100%;
+		z-index: 9999 !important;
+	}
+
+	.navbar-toggle {
+		/* used for sticky sub nav */
+		background-color: #777777;
+		border-radius: 0px;
+		border: 0px;
+		margin-bottom: 0px;
+	}
+
+	.affix~.container-fluid {
+		/* used for sticky sub nav */
+		position: relative;
+		top: 50px;
+	}
+
+	.navbar-inverse .navbar-nav>.active>a,
+	.navbar-inverse .navbar-nav>.active>a:focus,
+	.navbar-inverse .navbar-nav>.active>a:hover {
+		background-color: #eeeeee;
+	}
+
+	.navbar-inverse .navbar-nav>li>a:focus,
+	.navbar-inverse .navbar-nav>li>a:hover {
+		background-color: #eee;
+	}
+
+	.navbar-nav>li>a {
+		/* Bootstrap overide */
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #337ab7!important;
+	}
+
+	.navbar-inverse .navbar-nav>.open>a,
+	.navbar-inverse .navbar-nav>.open>a:focus,
+	.navbar-inverse .navbar-nav>.open>a:hover {
+		background-color: #eee;
+	}
+
+	.pageSubTitle {
+		/* Bootstrap overide */
+		display: block;
+		color: #414042 !important;
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
+		text-transform: uppercase;
+		padding: 0px 15px 0px 0px;
+                font-weight: 100;
+                font-size: 18px;
+	}
+
+	.glyph-pad-center.padding-home-subnav {
+		padding: 10px 15px;
+	}
+
+	.table>thead>tr>th {
+		border-bottom: 1px solid #ddd;
+	}
+
+	.btn {
+		padding: 0 20px;
+		background: #19b9e7;
+		border: 0;
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 50px;
+		color: #fff!important;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		text-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		-o-transition: all .3s;
+		-moz-transition: all .3s;
+		-webkit-transition: all .3s;
+		-ms-transition: all .3s;
+		transition: all .3s;
+	}
+
+        .orig-btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+	.btn:hover {
+		opacity: 0.6;
+		color: #fff;
+	}
+
+	.btn:active {
+		outline: 0;
+		opacity: 0.6;
+		color: #fff;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.btn:focus {
+		outline: 0;
+		opacity: 0.6;
+		background: #19b9e7;
+		color: #fff;
+	}
+
+	.btn:active:focus,
+	.btn.active:focus {
+		outline: 0;
+		opacity: 0.6;
+		background: #19b9e7;
+		color: #fff;
+	}
+
+	.btn-default:hover {
+		background-color: #286090;
+	}
+
+	.selectbox {
+		min-width: 100%;
+		padding: 6px 12px;
+	}
+
+	label {
+		font-weight: normal;
+	}
+
+	.label-title {
+		padding: 7px 12px 6px;
+		border: 1px solid transparent;
+	}
+
+	.btn-primary {
+		background-color: #337ab7!important;
+		border-color: #2e6da4!important;
+		padding: 7px 12px;
+		background: initial;
+		font-size: 14px;
+		line-height: 1.42857143;
+		font-weight: 400;
+	}
+
+	.iframe-container {
+		position: relative;
+		/*padding-bottom: 56.25%;  16:9 aspect ratio*/
+		padding-bottom: 130%;
+		padding-top: 35px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.iframe-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.form-group-plus {
+		border-top: 2px solid #ddd;
+		padding: 10px 10px 0px 10px;
+		margin-bottom: 15px;
+	}
+
+	.title-underline {
+		border-bottom: 2px solid #ddd;
+		margin: 0px 0px 13px!important;
+		line-height: 2em;
+	}
+
+
+	@media(max-width: 767px) {
+		.navbar {
+			min-height: 40px;
+		}
+		.navbar-toggle {
+			padding: 9px 10px;
+			margin: 8px 10px 8px 0px;
+			border: 1px solid transparent;
+			border-radius: 4px;
+		}
+		.navbar-toggle .icon-bar {
+			background-color: #fff;
+		}
+		.navbar-header .visible-xs {
+			float: left;
+			margin: 8px 0px;
+		}
+		.pageSubTitle {
+			margin: 0px;
+			padding: 15px 0px 15px 15px;
+			float: left;
+			line-height: 20px;
+		}
+		.navbar-inverse .navbar-collapse,
+		.navbar-inverse .navbar-form {
+			border-color: #cccccc;
+		}
+		.glyph-pad-center {
+			padding: 10px 0px 10px 15px;
+		}
+		.alert-danger.alert-page-summary {
+			margin: 4px 15px 4px 15px;
+		}
+	}
+
+	/* === End For sub nav === */
+</style>
+
+  <nav class="navbar navbar-sub">
+    <div class="container">
+      <div class="navbar-header">
+        <h4 class="pageSubTitle">Collection Dashboard</h4>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container margin-top-50">
+
+    <div class="form-group row margin-bottom-50 section-select-collection">
+      <div class="col-xs-12">
+        <h4 class="title-underline">Select Collection</h4>
+        <select id="selectCollection" class="form-control"><option value="select" disabled="" selected="selected">Select collection...</option><option value="ALL">All of Unite for Literacy</option><option value="/alhambra-elementary-school-district/kids-books-online">/alhambra-elementary-school-district/kids-books-online</option><option value="/altaqwa-for-eductional-services/kids-books-online">/altaqwa-for-eductional-services/kids-books-online</option><option value="/arkansascountystuttgartpubliclibrary/free-books-online">/arkansascountystuttgartpubliclibrary/free-books-online</option><option value="/arkansascountystuttgartpubliclibrary/kids-books-online">/arkansascountystuttgartpubliclibrary/kids-books-online</option><option value="/aurora-elementary-school/kids-books-online">/aurora-elementary-school/kids-books-online</option><option value="/banks-road-elementary-school/kids-books-online">/banks-road-elementary-school/kids-books-online</option><option value="/basis/kids-books-online">/basis/kids-books-online</option><option value="/bcithome/kids-books-online">/bcithome/kids-books-online</option><option value="/bedford-connects/kids-books-online">/bedford-connects/kids-books-online</option><option value="/bekkum-memorial-library/kids-books-online">/bekkum-memorial-library/kids-books-online</option><option value="/bensalem-township-school-district/kids-books-online">/bensalem-township-school-district/kids-books-online</option><option value="/bonham-public-library/kids-books-online">/bonham-public-library/kids-books-online</option><option value="/boston-public-school/kids-books-online">/boston-public-school/kids-books-online</option><option value="/boulder-valley-school-district/kids-books-online">/boulder-valley-school-district/kids-books-online</option><option value="/bradford-public-library/kids-books-online">/bradford-public-library/kids-books-online</option><option value="/bret-harte-elementary/free-books-online">/bret-harte-elementary/free-books-online</option><option value="/bret-harte-elementary/kids-books-online">/bret-harte-elementary/kids-books-online</option><option value="/bret-r-tarver-elementary/kids-books-online">/bret-r-tarver-elementary/kids-books-online</option><option value="/brockton-public-schools/kids-books-online">/brockton-public-schools/kids-books-online</option><option value="/brookwood-elementary/kids-books-online">/brookwood-elementary/kids-books-online</option><option value="/bryant-elementary/kids-books-online">/bryant-elementary/kids-books-online</option><option value="/cambridge-city-schools/kids-books-online">/cambridge-city-schools/kids-books-online</option><option value="/cambridge-public-schools/kids-books-online">/cambridge-public-schools/kids-books-online</option><option value="/cdsbeo/kids-books-online">/cdsbeo/kids-books-online</option><option value="/ch-johnson-public-library/kids-books-online">/ch-johnson-public-library/kids-books-online</option><option value="/chaparral-elementary-school/kids-books-online">/chaparral-elementary-school/kids-books-online</option><option value="/chestnut-ridge-middle-school/kids-books-online">/chestnut-ridge-middle-school/kids-books-online</option><option value="/childrens-literacy-initiative/kids-books-online">/childrens-literacy-initiative/kids-books-online</option><option value="/chippewa-falls-public-library/kids-books-online">/chippewa-falls-public-library/kids-books-online</option><option value="/collingwood-neighbourhood-school/kids-books-online">/collingwood-neighbourhood-school/kids-books-online</option><option value="/columbus-east-school/kids-books-online">/columbus-east-school/kids-books-online</option><option value="/cookmemoriallibrary/free-books-online">/cookmemoriallibrary/free-books-online</option><option value="/cookmemoriallibrary/kids-books-online">/cookmemoriallibrary/kids-books-online</option><option value="/cooloidge-elelmentary-school/kids-books-online">/cooloidge-elelmentary-school/kids-books-online</option><option value="/covington-harper-es-library/kids-books-online">/covington-harper-es-library/kids-books-online</option><option value="/cr-research-and-evaluation/kids-books-online">/cr-research-and-evaluation/kids-books-online</option><option value="/craneville-elementary-school/kids-books-online">/craneville-elementary-school/kids-books-online</option><option value="/ddsb/kids-books-online">/ddsb/kids-books-online</option><option value="/deer-creek-elementary-school/kids-books-online">/deer-creek-elementary-school/kids-books-online</option><option value="/duryea-elementary/kids-books-online">/duryea-elementary/kids-books-online</option><option value="/dzilth-na-o-dith-hle-face/kids-books-online">/dzilth-na-o-dith-hle-face/kids-books-online</option><option value="/dzilth-na-o-dith-hle/kids-books-online">/dzilth-na-o-dith-hle/kids-books-online</option><option value="/eagle-mountain-library/kids-books-online">/eagle-mountain-library/kids-books-online</option><option value="/eastcentralarkansasregionallibrary/free-books-online">/eastcentralarkansasregionallibrary/free-books-online</option><option value="/eastcentralarkansasregionallibrary/kids-books-online">/eastcentralarkansasregionallibrary/kids-books-online</option><option value="/edisto-primary-school/kids-books-online">/edisto-primary-school/kids-books-online</option><option value="/elloree-elementary-school/kids-books-online">/elloree-elementary-school/kids-books-online</option><option value="/estesvalleylibrary/free-books-online">/estesvalleylibrary/free-books-online</option><option value="/estesvalleylibrary/kids-books-online">/estesvalleylibrary/kids-books-online</option><option value="/families-forward/kids-books-online">/families-forward/kids-books-online</option><option value="/family/kids-books-online">/family/kids-books-online</option><option value="/fauquier-county-public-schools/kids-books-online">/fauquier-county-public-schools/kids-books-online</option><option value="/florence-public-library/kids-books-online">/florence-public-library/kids-books-online</option><option value="/fond-du-lac-ojibwe-school-face/first-one-hundred">/fond-du-lac-ojibwe-school-face/first-one-hundred</option><option value="/forest-park-elementary/kids-books-online">/forest-park-elementary/kids-books-online</option><option value="/gila-county-library-district/kids-books-online">/gila-county-library-district/kids-books-online</option><option value="/hanaadli-face/kids-books-online">/hanaadli-face/kids-books-online</option><option value="/hanaadliface/kids-books-online">/hanaadliface/kids-books-online</option><option value="/hardeeville-elementary/kids-books-online">/hardeeville-elementary/kids-books-online</option><option value="/harrington-waddell-elementary-school/kids-books-online">/harrington-waddell-elementary-school/kids-books-online</option><option value="/hc-johnson-school/kids-books-online">/hc-johnson-school/kids-books-online</option><option value="/holland-public-schools/kids-books-online">/holland-public-schools/kids-books-online</option><option value="/httpswwwdzilthnet/dz-face-first-one-hundred">/httpswwwdzilthnet/dz-face-first-one-hundred</option><option value="/ivy-drive-school/kids-books-online">/ivy-drive-school/kids-books-online</option><option value="/jack-london-elementary/kids-books-online">/jack-london-elementary/kids-books-online</option><option value="/jackson-school-district/kids-books-online">/jackson-school-district/kids-books-online</option><option value="/jasper-dubois-county-public-library/kids-books-online">/jasper-dubois-county-public-library/kids-books-online</option><option value="/kansas-city-public-schools/kids-books-online">/kansas-city-public-schools/kids-books-online</option><option value="/lakeview-elementary/kids-books-online">/lakeview-elementary/kids-books-online</option><option value="/lco-face/first-one-hundred">/lco-face/first-one-hundred</option><option value="/linkhorne-elementary-school/kids-books-online">/linkhorne-elementary-school/kids-books-online</option><option value="/literacy-counsel-of-northern-virginia/kids-books-online">/literacy-counsel-of-northern-virginia/kids-books-online</option><option value="/lubbock-independent-school-district/kids-books-online">/lubbock-independent-school-district/kids-books-online</option><option value="/madison-public-schools/kids-books-online">/madison-public-schools/kids-books-online</option><option value="/mapleton-public-schools/kids-books-online">/mapleton-public-schools/kids-books-online</option><option value="/mcs/kids-books-online">/mcs/kids-books-online</option><option value="/minneapolis-public-schools/kids-books-online">/minneapolis-public-schools/kids-books-online</option><option value="/mississippivalleylibrarydistrict/free-books-online">/mississippivalleylibrarydistrict/free-books-online</option><option value="/mississippivalleylibrarydistrict/kids-books-online">/mississippivalleylibrarydistrict/kids-books-online</option><option value="/ms-connies-cdc/kids-books-online">/ms-connies-cdc/kids-books-online</option><option value="/msd-of-wayne-township/kids-books-online">/msd-of-wayne-township/kids-books-online</option><option value="/nashoba-regional-school-district/kids-books-online">/nashoba-regional-school-district/kids-books-online</option><option value="/nccl-school/kids-books-online">/nccl-school/kids-books-online</option><option value="/norfolk-public-schools/kids-books-online">/norfolk-public-schools/kids-books-online</option><option value="/northlibertylibrary/free-books-online">/northlibertylibrary/free-books-online</option><option value="/northlibertylibrary/kids-books-online">/northlibertylibrary/kids-books-online</option><option value="/nycdoe/kids-books-online">/nycdoe/kids-books-online</option><option value="/onemorgancounty/free-books-online">/onemorgancounty/free-books-online</option><option value="/ozark-west-elementary/kids-books-online">/ozark-west-elementary/kids-books-online</option><option value="/palm-beach-schools/kids-books-online">/palm-beach-schools/kids-books-online</option><option value="/pendergast-frc/kids-books-online">/pendergast-frc/kids-books-online</option><option value="/peralta-elementary/kids-books-online">/peralta-elementary/kids-books-online</option><option value="/pinetree-elementary-school/kids-books-online">/pinetree-elementary-school/kids-books-online</option><option value="/plainfield-school-district-ridge-elementary-school/kids-books-online">/plainfield-school-district-ridge-elementary-school/kids-books-online</option><option value="/platt-memorial-library/kids-books-online">/platt-memorial-library/kids-books-online</option><option value="/pleasanton-unified-school-district/kids-books-online">/pleasanton-unified-school-district/kids-books-online</option><option value="/porter-memorial-library/kids-books-online">/porter-memorial-library/kids-books-online</option><option value="/ps-is/kids-books-online">/ps-is/kids-books-online</option><option value="/ps-ms-one-eight-eight/kids-books-online">/ps-ms-one-eight-eight/kids-books-online</option><option value="/ps/kids-books-online">/ps/kids-books-online</option><option value="/psbrooklyn/free-books-online">/psbrooklyn/free-books-online</option><option value="/public-school-fifty-q/kids-books-online">/public-school-fifty-q/kids-books-online</option><option value="/pwcs/kids-books-online">/pwcs/kids-books-online</option><option value="/queens-gran-tcommunity-school/kids-books-online">/queens-gran-tcommunity-school/kids-books-online</option><option value="/ramah-navajo-face/first-one-hundred">/ramah-navajo-face/first-one-hundred</option><option value="/rhea-county-schools/kids-books-online">/rhea-county-schools/kids-books-online</option><option value="/ritenour-school-district/kids-books-online">/ritenour-school-district/kids-books-online</option><option value="/school-district-of-south-milwaukee/kids-books-online">/school-district-of-south-milwaukee/kids-books-online</option><option value="/sdfs/kids-books-online">/sdfs/kids-books-online</option><option value="/severn-elementary/kids-books-online">/severn-elementary/kids-books-online</option><option value="/shaw-public-school/kids-books-online">/shaw-public-school/kids-books-online</option><option value="/sixmileregionallibrarydistrict/free-books-online">/sixmileregionallibrarydistrict/free-books-online</option><option value="/sixmileregionallibrarydistrict/kids-books-online">/sixmileregionallibrarydistrict/kids-books-online</option><option value="/spartanburg-district/kids-books-online">/spartanburg-district/kids-books-online</option><option value="/spotswood-public-library/kids-books-online">/spotswood-public-library/kids-books-online</option><option value="/spring-valley-elementary/kids-books-online">/spring-valley-elementary/kids-books-online</option><option value="/springboro-schools/kids-books-online">/springboro-schools/kids-books-online</option><option value="/sps/kids-books-online">/sps/kids-books-online</option><option value="/st-paul-public-schools/kids-books-online">/st-paul-public-schools/kids-books-online</option><option value="/svchc/free-books-online">/svchc/free-books-online</option><option value="/svchc/kids-books-online">/svchc/kids-books-online</option><option value="/tdsb/kids-books-online">/tdsb/kids-books-online</option><option value="/tehamacountylibrary/free-books-online">/tehamacountylibrary/free-books-online</option><option value="/tehamacountylibrary/kids-books-online">/tehamacountylibrary/kids-books-online</option><option value="/thorncliffe-park-ps/kids-books-online">/thorncliffe-park-ps/kids-books-online</option><option value="/todd-county-board-of-education/kids-books-online">/todd-county-board-of-education/kids-books-online</option><option value="/tollesonpubliclibrary/kids-books-online">/tollesonpubliclibrary/kids-books-online</option><option value="/toronto-district-school-board/toronto-district-school-board">/toronto-district-school-board/toronto-district-school-board</option><option value="/uic-college-prep/kids-books-online">/uic-college-prep/kids-books-online</option><option value="/union-local-elementary-school/kids-books-online">/union-local-elementary-school/kids-books-online</option><option value="/uticapubliclibrary/free-books-online">/uticapubliclibrary/free-books-online</option><option value="/uticapubliclibrary/kids-books-online">/uticapubliclibrary/kids-books-online</option><option value="/west-fargo-public-schools/kids-books-online">/west-fargo-public-schools/kids-books-online</option><option value="/westfield-board-of-education/kids-books-online">/westfield-board-of-education/kids-books-online</option><option value="/wheeler-elementary-school/kids-books-online">/wheeler-elementary-school/kids-books-online</option><option value="/wittenberg-birnamwood-school-district/kids-books-online">/wittenberg-birnamwood-school-district/kids-books-online</option></select>
+      </div>
+    </div>
+
+    <div class="form-group row margin-bottom-50 section-title-weeks">
+      <div class="col-xs-12">
+        <h1 class="title-underline" style="text-align: left;"><span id="ownerName">Tehama County Library:</span>&nbsp;<span id="collectionName">Free Books Online</span></h1>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div style="margin: 2rem;">
+              <div class="form-group row">
+                <div class="col-xs-12">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="131 -131 512 512" style="width: auto;height: 18px;float: left;margin: 10px 10px;" xml:space="preserve">
+                    <g id="XMLID_2_">
+                      <path id="XMLID_19_" d="M186.6,343.9h81.9V262h-81.9V343.9z M287.4,343.9h91.4V262h-91.4V343.9z M186.6,243.9h81.9v-91.4h-81.9   V243.9z M287.4,243.9h91.4v-91.4h-91.4V243.9z M186.6,134.5h81.9V52.6h-81.9V134.5z M396.9,343.9h91.4V262h-91.4V343.9z    M287.4,134.5h91.4V52.6h-91.4V134.5z M506.4,343.9h81.9V262h-81.9C506.4,262.1,506.4,343.9,506.4,343.9z M396.9,243.9h91.4v-91.4   h-91.4V243.9z M296.1-2.6v-81.9c0-2.6-0.9-4.3-2.6-6s-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6s-2.6,4.3-2.6,6v81.9   c0,2.6,0.9,4.3,2.6,6c1.7,1.7,4.3,2.6,6,2.6h18.1c2.6,0,4.3-0.9,6-2.6C295.2,1.7,296.1,0,296.1-2.6z M506.4,243.9h81.9v-91.4h-81.9   C506.4,152.6,506.4,243.9,506.4,243.9z M396.9,134.5h91.4V52.6h-91.4V134.5z M506.4,134.5h81.9V52.6h-81.9V134.5z M515-2.6v-81.9   c0-2.6-0.9-4.3-2.6-6c-1.7-1.7-4.3-2.6-6-2.6h-18.1c-2.6,0-4.3,0.9-6,2.6s-2.6,4.3-2.6,6v81.9c0,2.6,0.9,4.3,2.6,6s4.3,2.6,6,2.6   h18.1c2.6,0,4.3-0.9,6-2.6C514.1,1.7,515,0,515-2.6z M624.5-20.7v364.6c0,9.5-3.4,18.1-11.2,25.9S597.7,381,587.4,381H186.6   c-9.5,0-18.1-3.4-25.9-11.2c-6.9-6.9-11.2-15.5-11.2-25.9V-20.7c0-9.5,3.4-18.1,11.2-25.9c6.9-6.9,15.5-11.2,25.9-11.2h37.1v-27.5   c0-12.9,4.3-23.3,13.8-31.9c8.6-8.6,19.8-13.8,31.8-13.8h18.1c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6h109.5   v-27.6c0-12.9,4.3-23.3,13.8-31.9c8.6-8.6,19.8-13.8,31.9-13.8h18.1c12.9,0,23.3,4.3,31.9,13.8c8.6,8.6,13.8,19.8,13.8,31.9v27.6   h36.2c9.5,0,18.1,3.4,25.9,11.2C621-39.6,624.5-31,624.5-20.7z"></path></g>
+                    </svg>
+                    <h4 class="title-underline">Starting Week</h4>
+                    <select id="startWeek" class="form-control"><option value="2020_44">Week of 10/25/2020</option><option value="2020_43">Week of 10/18/2020</option><option value="2020_42">Week of 10/11/2020</option><option value="2020_41">Week of 10/4/2020</option><option value="2020_40">Week of 9/27/2020</option><option value="2020_39">Week of 9/20/2020</option><option value="2020_38">Week of 9/13/2020</option><option value="2020_37">Week of 9/6/2020</option><option value="2020_36">Week of 8/30/2020</option><option value="2020_35">Week of 8/23/2020</option></select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div style="margin: 2rem;">
+              <div class="form-group row">
+                <div class="col-xs-12">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="width: auto; height: 18px; float: left; margin: 10px 10px;" xml:space="preserve">
+                    <g>
+                      <path d="M100.2,0v22.3h-89V512h489.7V22.3h-89V0h-44.5v22.3H144.7V0H100.2z M55.7,66.8h44.5V89h44.5V66.8h222.6V89h44.5V66.8h44.5   v44.5H55.7V66.8z M55.7,155.8h400.7v311.7H55.7V155.8z M189.2,200.3v44.5h44.5v-44.5H189.2z M278.3,200.3v44.5h44.5v-44.5H278.3z    M367.3,200.3v44.5h44.5v-44.5H367.3z M100.2,289.4v44.5h44.5v-44.5H100.2z M189.2,289.4v44.5h44.5v-44.5H189.2z M278.3,289.4v44.5   h44.5v-44.5H278.3z M367.3,289.4v44.5h44.5v-44.5H367.3z M100.2,378.4V423h311.7v-44.5H100.2z"></path>
+                    </g>
+                  </svg>
+                  <h4 class="title-underline">Ending Week</h4>
+                  <select id="endWeek" class="form-control"><option value="2020_44">Week of 10/25/2020</option><option value="2020_43">Week of 10/18/2020</option><option value="2020_42">Week of 10/11/2020</option><option value="2020_41">Week of 10/4/2020</option><option value="2020_40">Week of 9/27/2020</option><option value="2020_39">Week of 9/20/2020</option><option value="2020_38">Week of 9/13/2020</option><option value="2020_37">Week of 9/6/2020</option><option value="2020_36">Week of 8/30/2020</option><option value="2020_35">Week of 8/23/2020</option></select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row margin-bottom-50 section-tabs">
+      <div class="col-xs-12">
+        <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="https://create.uniteforliteracy.com/dashboard#summary-tab" aria-controls="table" role="tab" data-toggle="tab" aria-expanded="true">Summary</a></li>
+              <li role="presentation" class=""><a href="https://create.uniteforliteracy.com/dashboard#table-tab" aria-controls="table" role="tab" data-toggle="tab" aria-expanded="false">Table</a></li>
+              <li role="presentation" class="">            <a href="https://create.uniteforliteracy.com/dashboard#chart-tab" aria-controls="charts" role="tab" data-toggle="tab" aria-expanded="false">Charts</a></li>
+              <li role="presentation">            <a href="https://create.uniteforliteracy.com/dashboard#chart-example-tab" class="hide" aria-controls="charts" role="tab" data-toggle="tab">Other Chart Examples</a></li>
+             <li role="presentation">            <a href="https://create.uniteforliteracy.com/dashboard#infographic-tab" class="hide" aria-controls="infographics" role="tab" data-toggle="tab">Infographics</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active in" id="summary-tab">
+                   <h2 id="TextData">In the 9 weeks ending 10/24/2020,<br><br> <b>17</b> readers spent <b>1</b> hours browsing <b>8</b> books.<br><br>They listened to <b>29</b> narrations while reading <b>3</b> books from cover to cover.<br><br>Before they left, they spread the word about the library by sharing <b>0</b> books with other readers.<br><br></h2>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="table-tab">
+                  <div id="dataTableDiv">
+                          <div class="table-responsive">
+                            <table id="data-table" class="table table-striped table-hover table-users" cellspacing="0" cellpadding="0">
+                              <thead>
+                                <tr>
+                                  <th id="data-head-week" class="col-xs-3">Week</th>
+                                  <th id="data-head-readers" class="col-xs-1">Readers</th>
+                                  <th id="data-head-hours" class="col-xs-1">Hours Spent<br>Browsing</th>
+                                  <th id="data-head-opens" class="col-xs-1">Book<br>Opens</th>
+                                  <th id="data-head-narrations" class="col-xs-1">Total<br>Narrations</th>
+                                  <th id="data-head-completions" class="col-xs-1">Book<br>Completions</th>
+                                  <th id="data-head-shares" class="col-xs-1">Books<br>Shared</th>
+                                </tr>
+                              </thead>
+                              <tbody id="dataTableRowsDiv"><tr id="dataRowDiv-2020_43" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 10/18/2020</td>
+          <td class="col-xs-1 data-item-readers green-shadower">
+             <span class="data-table-value">2</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours red-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_42" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 10/11/2020</td>
+          <td class="col-xs-1 data-item-readers gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours green-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_41" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 10/4/2020</td>
+          <td class="col-xs-1 data-item-readers red-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours red-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens red-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations red-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions red-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_40" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 9/27/2020</td>
+          <td class="col-xs-1 data-item-readers green-shadower">
+             <span class="data-table-value">6</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours red-shadower">
+             <span class="data-table-value">0.1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens green-shadower">
+             <span class="data-table-value">3</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations green-shadower">
+             <span class="data-table-value">4</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions green-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_39" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 9/20/2020</td>
+          <td class="col-xs-1 data-item-readers green-shadower">
+             <span class="data-table-value">3</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours green-shadower">
+             <span class="data-table-value">0.1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations green-shadower gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_38" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 9/13/2020</td>
+          <td class="col-xs-1 data-item-readers gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours gray-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens red-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations red-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions red-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_37" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 9/6/2020</td>
+          <td class="col-xs-1 data-item-readers gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours gray-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens green-shadower">
+             <span class="data-table-value">2</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations green-shadower">
+             <span class="data-table-value">23</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions green-shadower">
+             <span class="data-table-value">2</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_36" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 8/30/2020</td>
+          <td class="col-xs-1 data-item-readers gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours gray-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens red-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations red-shadower gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr><tr id="dataRowDiv-2020_35" class="data-row-div">
+          <td class="col-xs-3 data-item-week">Week of 8/23/2020</td>
+          <td class="col-xs-1 data-item-readers gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours gray-shadower">
+             <span class="data-table-value">0.0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations gray-shadower">
+             <span class="data-table-value">1</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares gray-shadower">
+             <span class="data-table-value">0</span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr></tbody>
+                            </table>
+                          </div>
+                  </div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="chart-tab">
+                  <div id="chart_readers_div"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 500px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_166"><clippath id="_ABSTRACT_RENDERER_ID_167"><rect x="161" y="96" width="579" height="309"></rect></clippath></defs><rect x="0" y="0" width="900" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="161" y="70.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Number of Readers by Week</text><rect x="161" y="59" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="320" y="471" width="260" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="320" y="471" width="118" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="353" y="482.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">New Readers</text></g><rect x="320" y="471" width="28" height="14" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="461" y="471" width="119" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="494" y="482.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Total Readers</text></g><rect x="461" y="471" width="28" height="14" stroke="none" stroke-width="0" fill="#dc3912"></rect></g></g><g><rect x="161" y="96" width="579" height="309" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://create.uniteforliteracy.com/dashboard#_ABSTRACT_RENDERER_ID_167)"><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="353" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="301" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="250" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="199" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="147" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="96" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="378" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="327" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="276" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="224" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="173" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="122" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="174" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="238" y="354" width="40" height="50" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="302" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="366" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="431" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="495" y="251" width="40" height="153" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="559" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="623" y="354" width="40" height="50" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="688" y="354" width="39" height="50" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="174" y="354" width="39" height="50" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="238" y="353" width="40" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="302" y="354" width="40" height="50" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="366" y="354" width="40" height="50" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="431" y="251" width="39" height="153" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="495" y="97" width="40" height="153" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="559" y="354" width="40" height="50" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="623" y="353" width="40" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="688" y="302" width="39" height="51" stroke="none" stroke-width="0" fill="#dc3912"></rect></g><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="193.61111111111111" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/23</text></g><g><text text-anchor="middle" x="257.83333333333337" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/30</text></g><g><text text-anchor="middle" x="322.05555555555554" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/6</text></g><g><text text-anchor="middle" x="386.2777777777778" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/13</text></g><g><text text-anchor="middle" x="450.5" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/20</text></g><g><text text-anchor="middle" x="514.7222222222223" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/27</text></g><g><text text-anchor="middle" x="578.9444444444445" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/4</text></g><g><text text-anchor="middle" x="643.1666666666667" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/11</text></g><g><text text-anchor="middle" x="707.3888888888889" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/18</text></g><g><text text-anchor="end" x="147" y="409.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="147" y="358.06669999999997" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">1</text></g><g><text text-anchor="end" x="147" y="306.7333" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2</text></g><g><text text-anchor="end" x="147" y="255.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">3</text></g><g><text text-anchor="end" x="147" y="204.0667" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">4</text></g><g><text text-anchor="end" x="147" y="152.7333" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">5</text></g><g><text text-anchor="end" x="147" y="101.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">6</text></g></g></g><g><g><text text-anchor="middle" x="450.5" y="454.56666666666666" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Week of</text><rect x="161" y="442.6666666666667" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="74.4" y="250.5" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 74.4 250.5)" stroke="none" stroke-width="0" fill="#222222">Readers</text><path d="M62.49999999999999,405L62.50000000000001,96L76.50000000000001,96L76.49999999999999,405Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px;">Total Readers</div><div></div></div></div>
+                  <div id="chart_hours_div"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 500px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_138"><clippath id="_ABSTRACT_RENDERER_ID_139"><rect x="161" y="96" width="579" height="309"></rect></clippath></defs><rect x="0" y="0" width="900" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="161" y="70.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Number of Hours Spent Browsing by Week</text><rect x="161" y="59" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="161" y="96" width="579" height="309" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://create.uniteforliteracy.com/dashboard#_ABSTRACT_RENDERER_ID_139)"><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="342" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="281" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="219" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="158" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="96" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="373" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="312" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="250" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="188" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="127" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="174" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="238" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="302" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="366" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="431" y="97" width="39" height="307" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="495" y="97" width="40" height="307" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="559" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="623" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="688" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="193.61111111111111" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/23</text></g><g><text text-anchor="middle" x="257.83333333333337" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/30</text></g><g><text text-anchor="middle" x="322.05555555555554" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/6</text></g><g><text text-anchor="middle" x="386.2777777777778" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/13</text></g><g><text text-anchor="middle" x="450.5" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/20</text></g><g><text text-anchor="middle" x="514.7222222222223" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/27</text></g><g><text text-anchor="middle" x="578.9444444444445" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/4</text></g><g><text text-anchor="middle" x="643.1666666666667" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/11</text></g><g><text text-anchor="middle" x="707.3888888888889" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/18</text></g><g><text text-anchor="end" x="147" y="409.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="147" y="347.79999999999995" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.02</text></g><g><text text-anchor="end" x="147" y="286.2" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.04</text></g><g><text text-anchor="end" x="147" y="224.6" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.06</text></g><g><text text-anchor="end" x="147" y="163" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.08</text></g><g><text text-anchor="end" x="147" y="101.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.1</text></g></g></g><g><g><text text-anchor="middle" x="450.5" y="468.9" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Week of</text><rect x="161" y="457" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="64.9" y="250.5" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 64.9 250.5)" stroke="none" stroke-width="0" fill="#222222">Hours</text><path d="M52.99999999999999,405L53.00000000000001,96L67.00000000000001,96L66.99999999999999,405Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>WeekNum</th><th>Readers</th></tr></thead><tbody><tr><td>8/23</td><td>0</td></tr><tr><td>8/30</td><td>0</td></tr><tr><td>9/6</td><td>0</td></tr><tr><td>9/13</td><td>0</td></tr><tr><td>9/20</td><td>0.1</td></tr><tr><td>9/27</td><td>0.1</td></tr><tr><td>10/4</td><td>0</td></tr><tr><td>10/11</td><td>0</td></tr><tr><td>10/18</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px; font-weight: bold;">Number of Hours Spent Browsing by Week</div><div></div></div></div>
+                  <div id="chart_book_opens_div"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 500px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_140"><clippath id="_ABSTRACT_RENDERER_ID_141"><rect x="161" y="96" width="579" height="309"></rect></clippath></defs><rect x="0" y="0" width="900" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="161" y="70.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Books Opens/Completions by Week</text><rect x="161" y="59" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="287" y="471" width="326" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="287" y="471" width="159" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="320" y="482.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Total Books Opened</text></g><rect x="287" y="471" width="28" height="14" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="469" y="471" width="144" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="502" y="482.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Books Completed</text></g><rect x="469" y="471" width="28" height="14" stroke="none" stroke-width="0" fill="#dc3912"></rect></g></g><g><rect x="161" y="96" width="579" height="309" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://create.uniteforliteracy.com/dashboard#_ABSTRACT_RENDERER_ID_141)"><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="353" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="301" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="250" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="199" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="147" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="96" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="378" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="327" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="276" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="224" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="173" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="122" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="174" y="302" width="19" height="102" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="238" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="302" y="200" width="20" height="204" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="366" y="302" width="20" height="102" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="431" y="302" width="19" height="102" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="495" y="97" width="19" height="307" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="559" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="623" y="404" width="20" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="688" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="194" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="258" y="404" width="20" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="323" y="200" width="19" height="204" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="387" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="451" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="515" y="302" width="20" height="102" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="579" y="404" width="20" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="644" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="708" y="404" width="19" height="0.5" stroke="none" stroke-width="0" fill="#dc3912"></rect></g><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="193.61111111111111" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/23</text></g><g><text text-anchor="middle" x="257.83333333333337" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/30</text></g><g><text text-anchor="middle" x="322.05555555555554" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/6</text></g><g><text text-anchor="middle" x="386.2777777777778" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/13</text></g><g><text text-anchor="middle" x="450.5" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/20</text></g><g><text text-anchor="middle" x="514.7222222222223" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/27</text></g><g><text text-anchor="middle" x="578.9444444444445" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/4</text></g><g><text text-anchor="middle" x="643.1666666666667" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/11</text></g><g><text text-anchor="middle" x="707.3888888888889" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/18</text></g><g><text text-anchor="end" x="147" y="409.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="147" y="358.06669999999997" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0.5</text></g><g><text text-anchor="end" x="147" y="306.7333" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">1</text></g><g><text text-anchor="end" x="147" y="255.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">1.5</text></g><g><text text-anchor="end" x="147" y="204.0667" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2</text></g><g><text text-anchor="end" x="147" y="152.7333" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2.5</text></g><g><text text-anchor="end" x="147" y="101.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">3</text></g></g></g><g><g><text text-anchor="middle" x="450.5" y="454.56666666666666" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Week of</text><rect x="161" y="442.6666666666667" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="68.9" y="250.5" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 68.9 250.5)" stroke="none" stroke-width="0" fill="#222222">Books</text><path d="M56.99999999999999,405L57.00000000000001,96L71.00000000000001,96L70.99999999999999,405Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>WeekNum</th><th>Total Books Opened</th><th>Books Completed</th></tr></thead><tbody><tr><td>8/23</td><td>1</td><td>0</td></tr><tr><td>8/30</td><td>0</td><td>0</td></tr><tr><td>9/6</td><td>2</td><td>2</td></tr><tr><td>9/13</td><td>1</td><td>0</td></tr><tr><td>9/20</td><td>1</td><td>0</td></tr><tr><td>9/27</td><td>3</td><td>1</td></tr><tr><td>10/4</td><td>0</td><td>0</td></tr><tr><td>10/11</td><td>0</td><td>0</td></tr><tr><td>10/18</td><td>0</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px;">Books Completed</div><div></div></div></div>
+                  <div id="chart_narrations_div"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 500px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_142"><clippath id="_ABSTRACT_RENDERER_ID_143"><rect x="161" y="96" width="579" height="309"></rect></clippath></defs><rect x="0" y="0" width="900" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="161" y="70.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Number of Narrations Played by Week</text><rect x="161" y="59" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="161" y="96" width="579" height="309" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://create.uniteforliteracy.com/dashboard#_ABSTRACT_RENDERER_ID_143)"><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="342" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="281" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="219" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="158" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="96" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="373" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="312" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="250" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="188" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="127" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="174" y="393" width="39" height="11" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="238" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="302" y="122" width="40" height="282" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="366" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="431" y="393" width="39" height="11" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="495" y="356" width="40" height="48" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="559" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="623" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="688" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="193.61111111111111" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/23</text></g><g><text text-anchor="middle" x="257.83333333333337" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/30</text></g><g><text text-anchor="middle" x="322.05555555555554" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/6</text></g><g><text text-anchor="middle" x="386.2777777777778" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/13</text></g><g><text text-anchor="middle" x="450.5" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/20</text></g><g><text text-anchor="middle" x="514.7222222222223" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/27</text></g><g><text text-anchor="middle" x="578.9444444444445" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/4</text></g><g><text text-anchor="middle" x="643.1666666666667" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/11</text></g><g><text text-anchor="middle" x="707.3888888888889" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/18</text></g><g><text text-anchor="end" x="147" y="409.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="147" y="347.79999999999995" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">5</text></g><g><text text-anchor="end" x="147" y="286.2" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">10</text></g><g><text text-anchor="end" x="147" y="224.6" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">15</text></g><g><text text-anchor="end" x="147" y="163" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">20</text></g><g><text text-anchor="end" x="147" y="101.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">25</text></g></g></g><g><g><text text-anchor="middle" x="450.5" y="468.9" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Week of</text><rect x="161" y="457" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="70.4" y="250.5" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 70.4 250.5)" stroke="none" stroke-width="0" fill="#222222">Narrations Played</text><path d="M58.49999999999999,405L58.50000000000001,96L72.50000000000001,96L72.49999999999999,405Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>WeekNum</th><th>Narrations Played</th></tr></thead><tbody><tr><td>8/23</td><td>1</td></tr><tr><td>8/30</td><td>0</td></tr><tr><td>9/6</td><td>23</td></tr><tr><td>9/13</td><td>0</td></tr><tr><td>9/20</td><td>1</td></tr><tr><td>9/27</td><td>4</td></tr><tr><td>10/4</td><td>0</td></tr><tr><td>10/11</td><td>0</td></tr><tr><td>10/18</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px; font-weight: bold;">Number of Narrations Played by Week</div><div></div></div></div>
+                  <div id="chart_share_div"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 500px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_144"><clippath id="_ABSTRACT_RENDERER_ID_145"><rect x="161" y="96" width="579" height="309"></rect></clippath></defs><rect x="0" y="0" width="900" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="161" y="70.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Number of Books Shared by Week</text><rect x="161" y="59" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="161" y="96" width="579" height="309" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://create.uniteforliteracy.com/dashboard#_ABSTRACT_RENDERER_ID_145)"><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="342" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="281" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="219" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="158" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="96" width="579" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="161" y="373" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="312" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="250" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="188" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="161" y="127" width="579" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="174" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="238" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="302" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="366" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="431" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="495" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="559" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="623" y="404" width="40" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="688" y="404" width="39" height="0.5" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="161" y="404" width="579" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="middle" x="193.61111111111111" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/23</text></g><g><text text-anchor="middle" x="257.83333333333337" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">8/30</text></g><g><text text-anchor="middle" x="322.05555555555554" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/6</text></g><g><text text-anchor="middle" x="386.2777777777778" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/13</text></g><g><text text-anchor="middle" x="450.5" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/20</text></g><g><text text-anchor="middle" x="514.7222222222223" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">9/27</text></g><g><text text-anchor="middle" x="578.9444444444445" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/4</text></g><g><text text-anchor="middle" x="643.1666666666667" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/11</text></g><g><text text-anchor="middle" x="707.3888888888889" y="425.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">10/18</text></g><g><text text-anchor="end" x="147" y="409.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="147" y="347.79999999999995" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2</text></g><g><text text-anchor="end" x="147" y="286.2" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">4</text></g><g><text text-anchor="end" x="147" y="224.6" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">6</text></g><g><text text-anchor="end" x="147" y="163" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">8</text></g><g><text text-anchor="end" x="147" y="101.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">10</text></g></g></g><g><g><text text-anchor="middle" x="450.5" y="468.9" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Week of</text><rect x="161" y="457" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="70.4" y="250.5" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 70.4 250.5)" stroke="none" stroke-width="0" fill="#222222">Books Shared</text><path d="M58.49999999999999,405L58.50000000000001,96L72.50000000000001,96L72.49999999999999,405Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>WeekNum</th><th>Book Shares</th></tr></thead><tbody><tr><td>8/23</td><td>0</td></tr><tr><td>8/30</td><td>0</td></tr><tr><td>9/6</td><td>0</td></tr><tr><td>9/13</td><td>0</td></tr><tr><td>9/20</td><td>0</td></tr><tr><td>9/27</td><td>0</td></tr><tr><td>10/4</td><td>0</td></tr><tr><td>10/11</td><td>0</td></tr><tr><td>10/18</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px; font-weight: bold;">Number of Books Shared by Week</div><div></div></div></div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="chart-example-tab">
+                  <!--Div that will hold the pie chart-->
+                  <div id="chart_pie_div"></div>
+                  <div id="chart_gauge_div"></div>
+                  <div id="chart_line_div"></div>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="infographic-tab">
+              </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="form-group row" style="margin-top:20px">
+      <div class="col-xs-12 col-sm-1 text-center">
+        <a href="https://create.uniteforliteracy.com/logout" class="btn btn-primary">Logout</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ========================================================== -->
+  <!--   This is the model where the alias collections are listed -->
+  <!-- ========================================================== -->
+  <style>
+     .cell-value-even { color:#9c9c9c }
+     .cell-value-down { color:#ff3b00 }
+     .cell-value-up   { color:#4fb700 }
+
+     .gray-shadower {
+         border: 1px solid #9c9c9c;
+         -moz-box-shadow: inset 0 0 10px #9c9c9c;
+         -webkit-box-shadow: inset 0 0 10px #9c9c9c;
+         box-shadow: inset 0px 2px 10px #9c9c9c;
+     }
+
+     .green-shadower {
+         border: 1px solid #4fb700;
+         -moz-box-shadow: inset 0 0 10px #4fb700;
+         -webkit-box-shadow: inset 0 0 10px #4fb700;
+         box-shadow: inset 0px 2px 10px #4fb700;
+     }
+
+     .red-shadower {
+         border: 1px solid #ff3b00;
+         -moz-box-shadow: inset 0 0 10px #ff3b00;
+         -webkit-box-shadow: inset 0 0 10px #ff3b00;
+         box-shadow: inset 0px 2px 10px #ff3b00;
+     }
+  </style>
+
+  <div class="table-responsive hide">
+    <table>
+      <tbody>
+        <tr id="master-data-row-div">
+          <td class="col-xs-3 data-item-week">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-readers">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-hours">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-opens">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-narrations">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-completions">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+          <td class="col-xs-1 data-item-shares">
+             <span class="data-table-value"></span>
+             &nbsp;&nbsp;
+             <span class="cell-value-even hide">-</span>
+             <span class="cell-value-down hide">↘</span>
+             <span class="cell-value-up   hide">↗</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <style>
+    /* === Footer Styles === */
+
+    .footer {
+      /* used for sticky Footer */
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #eeeeee;
+      border-top: 1px solid #dedede;
+      padding: 10px 0px;
+      font-size: 14px;
+    }
+
+    .footer-block {
+      /* used for sticky Footer */
+      margin: 0px;
+      text-align: center;
+    }
+
+    .scroll-top {
+      /* For scroll to top button at footer */
+      position: fixed;
+      bottom: 0;
+      right: 6%;
+      z-index: 100;
+      background-color: #fff;
+      border: 1px solid #dedede;
+      font-size: 1.25em;
+    }
+
+    ul.nav.pull-right.scroll-top li a span {
+      font-size: .75em;
+      position: relative;
+      top: -2px;
+    }
+    /* === End Footer Styles === */
+  </style>
+  <footer class="footer">
+    <div id="ufl-footer-wrap" class="container">
+      <p class="footer-block text-muted">© 2020 Unite for Literacy</p>
+    </div>
+  </footer>
+
+  <style>
+    /* === Footer Styles === */
+
+    .footer {
+      /* used for sticky Footer */
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #eeeeee;
+      border-top: 1px solid #dedede;
+      padding: 10px 0px;
+      font-size: 14px;
+    }
+
+    .footer-block {
+      /* used for sticky Footer */
+      margin: 0px;
+      text-align: center;
+    }
+
+    .scroll-top {
+      /* For scroll to top button at footer */
+      position: fixed;
+      bottom: 0;
+      right: 6%;
+      z-index: 100;
+      background-color: #fff;
+      border: 1px solid #dedede;
+      font-size: 1.25em;
+    }
+
+    ul.nav.pull-right.scroll-top li a span {
+      font-size: .75em;
+      position: relative;
+      top: -2px;
+    }
+    /* === End Footer Styles === */
+  </style>
+  <ul class="nav pull-right scroll-top">
+    <li>
+      <a href="https://create.uniteforliteracy.com/dashboard#" title="Scroll to top">
+          <i class="glyphicon glyphicon-chevron-up"></i>
+          <span>TOP</span>
+        </a>
+    </li>
+  </ul>
+
+  <!-- For nav and mobile nav -->
+  <script type="text/javascript">
+      var HTML_version = '5947236t3';
+    var DataFromServerJSONstr = '{"versions":{"staticVersion":"5947236t3","libVersion":"570647236","booksVersion":"553537236","sponsorsVersion":"54307236","filesVersion":"500","localVersion":"5947236","prefix":"p","libRversion":0},"ABTestConfig":{"Tests":[{"TestName":"July2018Next4Test","Scenarios":[{"Name":"NewNext4","Existing_Pct":50,"NewUser_Pct":50},{"Name":"OldNext4","default":true}],"UseCookie":false}]}}';
+    var DataFromServer = {};
+    if (DataFromServerJSONstr.indexOf("[[") != 0) {
+        DataFromServer = JSON.parse(DataFromServerJSONstr.replace(/____APOS____/g, "'"));
+    }
+
+  </script>
+
+  <script type="text/javascript" src="./Unite for Literacy - Dashboard_files/jquery-bootstrap-includes_vvv_5947236t3.js"></script>
+  <script type="text/javascript" src="./Unite for Literacy - Dashboard_files/mgrDashboard_vvv_5947236t3.js"></script>
+<script>
+  google.charts.load('current', {packages: ['corechart', 'line', 'bar', 'gauge']});
+  google.charts.setOnLoadCallback(onGoogleChartsLoaded);
+</script>
+
+
+
+
+</body></html>
