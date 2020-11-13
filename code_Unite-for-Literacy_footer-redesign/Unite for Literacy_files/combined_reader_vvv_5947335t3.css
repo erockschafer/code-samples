@@ -843,7 +843,7 @@ a.normlink:hover {color: initial;}
 
 @media ( min-width: 555px )  {
     .shelfContentPane {
-		background-image: url("/images/shelf-left-185.png?v=5947335t3"), url("/images/shelf-right-185.png?v=5947335t3"), url("/images/shelf-center-185.png?v=5947335t3");
+		background-image: url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-left-185.png"), url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-right-185.png"), url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-center-185.png");
     }
     /* .image-block { width:215px; height:185px;float:left;margin:0 }  */
     .image-block { width:215px; height:185px} 
@@ -856,7 +856,7 @@ a.normlink:hover {color: initial;}
 /* Medium - centered book, larger thumb and shelf now. */
 @media ( min-width: 700px )  {
 	.shelfContentPane {
-		background-image: url("/images/shelf-left-240.png?v=5947335t3"), url("/images/shelf-right-240.png?v=5947335t3"), url("/images/shelf-center-240.png?v=5947335t3");
+		background-image: url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-left-240.png"), url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-right-240.png"), url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-center-240.png");
 		border-left:60px solid transparent;
 		border-right:60px solid transparent;
 	}
