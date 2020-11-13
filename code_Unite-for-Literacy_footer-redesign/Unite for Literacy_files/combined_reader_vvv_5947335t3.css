@@ -639,7 +639,7 @@ div.jp-title li {
 }
 
 .shelfContentPane {	/* smaller shelves for smaller books */
-	background-image: url("/images/shelf-left-149.png?v=1.1.270"), url("/images/shelf-right-149.png?v=1.1.270"), url("/images/shelf-center-149.png?v=1.1.270");
+	background-image: url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-left-149.png"), url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-right-149.png"), url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/shelf-center-149.png");
 	background-position: left top, right top, left top;
 	background-repeat: repeat-y, repeat-y, repeat;
 	background-attachment: scroll, scroll, scroll;
