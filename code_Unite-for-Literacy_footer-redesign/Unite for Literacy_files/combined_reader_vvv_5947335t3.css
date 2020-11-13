@@ -73,7 +73,8 @@ html, body {
 }
 
 .wood-background {
-	background: #C9AF8E url("/images/wood.jpg?v=5947335t3") repeat;
+	background: #C9AF8E url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/wood.jpg") repeat;
+	/*background: #C9AF8E url("/images/wood.jpg?v=5947335t3") repeat;*/
 }
 
 /* needed to help determine existence and size of mobile browser address bar */
