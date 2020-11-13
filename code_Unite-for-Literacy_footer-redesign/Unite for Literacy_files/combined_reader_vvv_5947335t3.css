@@ -181,7 +181,8 @@ html, body {
 	height: auto;
 	margin: 0 auto;
 }
-.Pages > .RightPage { background: #FFFFFF url('/images/page-shadow.png?v=5947335t3') repeat-y 0 0; }
+.Pages > .RightPage { background: #FFFFFF url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/page-shadow.png') repeat-y 0 0; }
+/* .Pages > .RightPage { background: #FFFFFF url('/images/page-shadow.png?v=5947335t3') repeat-y 0 0; } */
 
 .Pages p {margin-top:0px; margin-bottom:0px;}
 
