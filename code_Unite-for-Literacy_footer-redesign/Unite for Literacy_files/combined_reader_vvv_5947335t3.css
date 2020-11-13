@@ -72,7 +72,7 @@ html, body {
 
 .wood-background {
 	background: #C9AF8E url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/wood.jpg") repeat;
-	/*background: #C9AF8E url("/images/wood.jpg?v=5947335t3") repeat;*/
+	/*background: #C9AF8E url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/wood.jpg") repeat;*/
 }
 
 /* needed to help determine existence and size of mobile browser address bar */
@@ -1119,7 +1119,7 @@ a.collectionLink:hover { cursor: pointer; }
 /*  Collection popup from home page             */
 /************************************************/
 .modal-dialog.ufl-lib-modal { width: 90%; margin-left:auto; margin-right:auto; } /* marging make it center on all sizes. bootstrap doesn't normally center on small screens */
-.modal-content.ufl-lib-modal { background: #FFF url("/images/wood.jpg?v=5947335t3") repeat; }
+.modal-content.ufl-lib-modal { background: #FFF url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/wood.jpg") repeat; }
 
 .modal-backdrop.in.darker {
     opacity: .8;
@@ -1261,7 +1261,7 @@ a.ufl-header-logo-text, a.ufl-header-logo-text:hover { color: #FFF; cursor: poin
     width: 480px;
     height: 360px;
     margin: 0 auto;
-    background: #FFF url("/images/wood.jpg?v=5947335t3") repeat;
+    background: #FFF url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/wood.jpg") repeat;
 }
 #evtLocations {min-width: 250px;}
 
