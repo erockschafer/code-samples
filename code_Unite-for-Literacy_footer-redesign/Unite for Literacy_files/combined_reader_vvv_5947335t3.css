@@ -482,7 +482,7 @@ div.jp-title li {
 	margin-top: -17px;
 	width: 17px;
 	height: 34px;
-	background: url('/images/uflsprite.png?v=5947335t3') no-repeat;
+	background: url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png') no-repeat;
 	background-position: 0px -132px;
 }
 .PageEdgeLeftArrow.clicked {
@@ -518,7 +518,7 @@ div.jp-title li {
 	margin-top: -17px;
 	width: 17px;
 	height: 34px;
-	background: url('/images/uflsprite.png?v=5947335t3') no-repeat;
+	background: url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png') no-repeat;
 	background-position: -17px -132px;
 }
 .PageEdgeRightArrow.clicked {
@@ -1070,7 +1070,7 @@ a.btn { color: #000; }	/* needed since 'a' is defined differently in reader.css 
 	top: 0;
 	left: 0;
 	width: 44px;
-    background: url("/images/uflsprite.png?v=5947335t3") -88px -44px;
+    background: url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png") -88px -44px;
 }
 
 .uflNavCarouselWrapper {
@@ -1088,7 +1088,7 @@ a.btn { color: #000; }	/* needed since 'a' is defined differently in reader.css 
 	float: left;
 	color: #FFF;
 	padding: 11px 0 0 46px;
-	background: url('/images/uflsprite.png?v=5947335t3') no-repeat -205px -86px;
+	background: url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png') no-repeat -205px -86px;
 }
 .urlReturnArrow:hover {
 	background-position: -205px -158px;
@@ -1137,8 +1137,8 @@ a.collectionLink:hover { cursor: pointer; }
 .uflHeaderIcon { height: 44px; }
 .uflHeaderIcon:hover { cursor: pointer; }
 
-.uflshortlogo {	width: 45px; background: url("/images/uflsprite.png?v=5947335t3") -176px -44px; }
-.ufllonglogo { width: 240px; background: url("/images/uflsprite.png?v=5947335t3") 0 0; }
+.uflshortlogo {	width: 45px; background: url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png") -176px -44px; }
+.ufllonglogo { width: 240px; background: url("https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png") 0 0; }
 
 
 /************************************************/
@@ -1491,7 +1491,7 @@ a.ufl-header-logo-text, a.ufl-header-logo-text:hover { color: #FFF; cursor: poin
     left:50%;
 	margin-top: -17px;
 	margin-left: -8px;
-	background: url('/images/uflsprite.png?v=5947335t3') no-repeat; 
+	background: url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png') no-repeat; 
 }
 .touchcarousel.ufl-skin .arrow-icon.left {
 	background-position: -68px -132px;				/* white */
@@ -1534,7 +1534,7 @@ a.ufl-header-logo-text, a.ufl-header-logo-text:hover { color: #FFF; cursor: poin
 	height: 60px;
 	margin-top: -30px;
     width: 36px;
-	background: url('/images/uflsprite.png?v=5947335t3') no-repeat; 
+	background: url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png') no-repeat; 
 }
 .touchcarousel.ufl-collection .arrow-icon.left {
 	background-position: -36px -406px;				/* white */
@@ -1695,7 +1695,7 @@ a.ufl-header-logo-text, a.ufl-header-logo-text:hover { color: #FFF; cursor: poin
 }
 
 .uflNarrationIcon, .uflSearchIcon, .uflCategoryIcon, .uflWrittenIcon {
-    background: url('/images/uflsprite.png?v=5947335t3') no-repeat;
+    background: url('https://github.com/erockschafer/code-samples/raw/main/code_Unite-for-Literacy_footer-redesign/Unite%20for%20Literacy_files/uflsprite.png') no-repeat;
     width: 44px;
     height: 44px;
     position:absolute;
